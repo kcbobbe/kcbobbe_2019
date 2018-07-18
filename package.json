@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Katie's Portfolio",
+  "main": "index.js",
+  "repository": "https://github.com/kcbobbe/portfolio.git",
+  "author": "kcbobbe <kcbobbe@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.0.2",
+    "node-sass": "^4.9.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
