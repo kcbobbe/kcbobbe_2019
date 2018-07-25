@@ -20,6 +20,7 @@
 }
 .card {
   margin:auto;
+  height:100%;
 }
 
 .card-box {
@@ -32,8 +33,32 @@
   width:80%;
   margin:1rem auto 2rem auto;
   padding:1rem;
+  background-color: rgba(230,230,230,.2);
+  border:2px solid rgb(230,230,230);
+
 }
+
+/* .light-grey-box {
+  width:80%;
+  margin:1rem auto 2rem auto;
+  padding:1rem;
+  background-color: rgba(230,230,230,.2);
+  border:2px solid rgb(230,230,230);
+
+} */
+
 
 .cards {
   margin:1rem;
+}
+
+.callout-box {
+  margin:auto;
+  max-width:700px;
+}
+
+.grey-box{
+  background-color:rgba(230,230,230,.2);
+  padding:1rem;
+  /* border-top:2px solid rgba(230,230,230); */
 }
