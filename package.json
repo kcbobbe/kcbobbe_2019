@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Katie's Portfolio",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "https://github.com/kcbobbe/portfolio.git",
   "author": "kcbobbe <kcbobbe@gmail.com>",
   "license": "MIT",
