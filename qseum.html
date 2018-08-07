@@ -86,6 +86,9 @@
                     When a museum employee scans the member's QR code, they are brought to that user's specific check in page.
                     This page is only accessible by museum employees with admin privileges.
                   </p>
+                  <div class="grid-x grid-margin-x">
+                      <div class="cell first medium-6 large-8" style="align-content:center">
+  
                   <h5><strong>Checking in a museum guest</strong></h5>
                   <p>
                     The first time a museum employee checks in a member, they must validate the member's selife.
@@ -100,13 +103,27 @@
                     This logs the visit with the member's information and date of visit.
                     This visit information could be used by employees to analyze visit data.
                   </p>
-                  <h5><strong>Purchasing Admission</strong></h5>
-                  <p>
-                    The primary focus of Q-seum was to provide museum members with a way to easily check in to the museum using a QR Code.
-                    As we completed development of this feature, we decided to tackle another problem that the museum faces.
-                    Currently, the Museum of Life and Science in Durham does not have a way for guests to pre-purchase or gift admission to the museum.
-                    We added the ability for users to easily purchase admission for themselves or others through Q-seum.
-                  </p>
+                  </div>
+                  <div class="cell second medium-6 large-4">
+                  <div class="card" style="max-width:250px">
+                      <img src="images/checkin.png">
+                    <div class="card-section">
+                      <p>The check in process is quick and easy for the museum employee</p>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="grid-x grid-margin-x">
+                    <div class="cell first medium-6 large-8">
+                        <h5><strong>Purchasing Admission</strong></h5>
+
+                        <p>
+                            The primary focus of Q-seum was to provide museum members with a way to easily check in to the museum using a QR Code.
+                            As we completed development of this feature, we decided to tackle another problem that the museum faces.
+                            Currently, the Museum of Life and Science in Durham does not have a way for guests to pre-purchase or gift admission to the museum.
+                            We added the ability for users to easily purchase admission for themselves or others through Q-seum.
+                          </p>
+        
                   <p>
                     Back on the landing page of Q-seum there is an option to pre-purchase admission.
                     Anyone can purchase admission using this feature, even without a Q-seum account or a museum membership.
@@ -116,10 +133,24 @@
                     This information is tokenized, validated, and processed using <a href="#">Stripe</a>.
                   </p>
                   <p>
-                    After the purchase is successful, the tickets will be emailed to the recipient.
-                    The email contains a one-use QR Code.
-                    Upon scanning, the visitor can be checked in and QR Code will be marked as invalid.
-                  </p>
+                      After the purchase is successful, the tickets will be emailed to the recipient.
+                      The email contains a one-use QR Code.
+                      Upon scanning, the visitor can be checked in and QR Code will be marked as invalid.
+                    </p>
+                </div>
+                <div class="cell second medium-6 large-4">
+                  <div class="card" style="max-width:300px">
+                      <img src="images/purchase.png">
+                    <div class="card-section">
+                      <p>Ticket purchases are handled by Stripe</p>
+                    </div>
+                  </div>
+                </div>
+
+                  </div>
+
+                  <div class="grid-x grid-margin-x">
+                      <div class="cell first medium-6 large-8">  
                   <h5><strong>The design of Q-seum</strong></h5>
                   <p>
                     Our application was built to be used almost exclusively on mobile devices, so we designed this application with that in mind.
@@ -129,11 +160,21 @@
                     We were able to adjust our UI to accommodate different devices and suggestions from our testers.
                   </p>
                   <p>
-                    Many of our design choices were influenced by the museum itself.
-                    Our bright color scheme and forest background was inspired by the whimsy and natural environment of the museum.
-                    Our orange QR code frog was inspired by poison dart frogs that I saw at the museum.
-                    I was thinking all about QR codes, that when I saw the frog I thought to myself "That frog looks like it has a QR code on its back".
-                  </p>
+                      Many of our design choices were influenced by the museum itself.
+                      Our bright color scheme and forest background was inspired by the whimsy and natural environment of the museum.
+                      Our orange QR code frog was inspired by poison dart frogs that we saw at the museum.
+                    </p>
+                  </div>
+                  <div class="cell second medium-6 large-4">
+                  <div class="card" style="max-width:300px">
+                      <img src="images/ui.png">
+                    <div class="card-section">
+                      <p>Q-seum's hamburger menu is easy to use on a mobile device</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
                   <h5><strong>Why choose not to build a native app?</strong></h5>
                     Before starting development, we had a discussion about whether we should make Q-seum a native app, or to make it a mobile first web application.
                     There are several reasons why a native app would be beneficial, including a more immersive user experience.
